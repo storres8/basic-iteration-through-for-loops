@@ -41,3 +41,13 @@ d={"k1":1, "k2":2, "k3":3, "k4":4}
 for key,value in d.items():
     print(key)
     print(value)
+
+# prints:
+# k1
+# 1
+# k2
+# 2
+# k3
+# 3
+# k4
+# 4
