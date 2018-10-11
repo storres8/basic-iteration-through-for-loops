@@ -23,3 +23,21 @@ my_list2=[(11,12), (13,14), (15,16)]
 for a,b in my_list2:
     print(a)
     print(b)
+# prints:
+# 11
+# 12
+# 13
+# 14
+# 15
+# 16
+
+# iteration through a dictionary
+# we can use .items() to grab key and value
+# or .keys() for keys
+# or .values() for the values
+
+
+d={"k1":1, "k2":2, "k3":3, "k4":4}
+for key,value in d.items():
+    print(key)
+    print(value)
